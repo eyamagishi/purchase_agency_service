@@ -1,2 +1,55 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div id="container">
+    <header>
+        <h1 id="logo"><a href="#">SAMPLE 株式会社</a></h1>
+    </header>
+    <nav id="menubar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="mainimg">
+        <div><%= image_tag "1.jpg", alt: "" %></div>
+        <div><%= image_tag "2.jpg", alt: "" %></div>
+        <div><%= image_tag "3.jpg", alt: "" %></div>
+    </div>
+    <main>
+        <section>
+            <h2>お知らせ</h2>
+            <dl id="new">
+                <dt>2021/12/11</dt>
+                <dd>tp_beginner7配布開始。</dd>
+                <dt>20XX/00/00</dt>
+                <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+                <dt>20XX/00/00</dt>
+                <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+                <dt>20XX/00/00</dt>
+                <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+                <dt>20XX/00/00</dt>
+                <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。
+                </dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <ul class="icon">
+            <li><%= link_to image_tag("icon_facebook.png",  alt: "Facebook"),  "#" %></li>
+            <li><%= link_to image_tag("icon_twitter.png",   alt: "Twitter"),   "#" %></li>
+            <li><%= link_to image_tag("icon_instagram.png", alt: "Instagram"), "#" %></li>
+            <li><%= link_to image_tag("icon_youtube.png",   alt: "YouTube"),   "#" %></li>
+            <li><%= link_to image_tag("icon_line.png",      alt: "LINE"),      "#" %></li>
+        </ul>
+        <small>Copyright&copy; <a href="index.html">Sample Company</a> All Rights Reserved.</small>
+        <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
+                Design:Template-Party》</a></span>
+    </footer>
+</div>
+<!--/#container-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<p class="pagetop"><a href="#">↑</a></p>
