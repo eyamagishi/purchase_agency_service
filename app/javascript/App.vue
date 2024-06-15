@@ -1,5 +1,7 @@
 <template>
-    <p>{{ state.message }}</p>
+    <header>
+        <h1 id="logo"><a href="#">{{ state.message }}</a></h1>
+    </header>
 </template>
   
 <script lang="ts">
@@ -10,7 +12,7 @@ export default defineComponent({
     setup() {
         return {
             state: {
-                message: "Ruby on Rails + vite + Vue3!"
+                message: "SAMPLE 株式会社"
             }
         }
     }
